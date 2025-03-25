@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+*{
+  background-color: #36393F;
+}
+
+/* Ensure any <span> inside a Mantine Button inherits the button's background */
+.mantine-Button-root span {
+  background: transparent !important;
+  color: inherit !important;
+}
