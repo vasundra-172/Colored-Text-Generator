@@ -224,19 +224,20 @@ const DiscordColoredTextGenerator = () => {
       }}
     >
       <Title order={1} align="center" mb="md" style={{ color: '#fff' }}>
-        Rebane's Discord <Title order={1} component="span" c="#5865F2">Colored</Title> Text Generator
+       Discord <Title order={1} component="span" c="#5865F2">Colored</Title> Text Generator
       </Title>
       <Text size="xl" fw={700} mb="md">About</Text>
       <Text mb="md">
         This is a simple app that creates colored Discord messages using the <br /> ANSI color codes available on the latest Discord desktop versions. <br /><br />
         To use this, write your text, select parts of it and assign colors to them,<br /> then copy it using the button below, and send in a Discord message.
       </Text>
-      <Text size="xl" fw={700} mb="md">Source Code</Text>
+      {/* <Text size="xl" fw={700} mb="md">Source Code</Text> */}
       <Text mb="md">
-        This app runs entirely in your browser and the source code is freely <br /> available    
+        {/* This app runs entirely in your browser and the source code is freely <br /> available    
         on <Anchor href="https://gist.github.com/rebane2001/07f2d8e80df053c70a1576d27eabe97c" target="_blank" underline="always">
         Github
-      </Anchor>. Shout out to kkrypt0nn for <Anchor href="https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06" target="_blank" underline="always">this guide.</Anchor>
+      </Anchor>. */}
+       Shout out to kkrypt0nn for <Anchor href="https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06" target="_blank" underline="always">this guide.</Anchor>
       </Text>
 
       <Title order={2} align="center" mb="md">
