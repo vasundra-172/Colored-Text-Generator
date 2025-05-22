@@ -53,7 +53,7 @@ const DiscordColoredTextGenerator = () => {
 
   useEffect(() => {
     if (textareaRef.current) {
-      textareaRef.current.innerHTML = 'Welcome to Rebane\'s Discord Colored Text Generator!';
+      textareaRef.current.innerHTML = 'Welcome to Discord Colored Text Generator!';
     }
   }, []);
 
